@@ -3,6 +3,7 @@ body {
     color: #191970;
     font-family: Arial, Verdana, sans-serif;
 }
+
 h1 { 
     background-color: #191970;
     color: #e6e6fa;
@@ -13,6 +14,7 @@ h1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 h2 {
     background-color: #aeaed4;
     color: #191970;
@@ -22,19 +24,17 @@ h2 {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-}
-p {
-    font-size: .90em;
-    text-indent: 3em;
-}
+
 ul {
     font-weight: bold;
 }
+
 nav {
     text-align: right;
     font-weight: bold;
     padding-right: 25px;
 }
+
 footer {
     color: #333333;
     font-size: .75em;
@@ -59,6 +59,7 @@ h3 {
     padding-left: 300px; 
     padding-top: 80px;
 }
+
 h4 { 
     font-weight: 100;
     font-size: 1.2em;
@@ -67,22 +68,26 @@ h4 {
     font-family: Georgia, "Times New Roman", serif;
     padding-left: 300px; 
 }
+
 .row {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 2px 500px 50px 500px;
+    padding: 0px 20px 50px 20px;
 }
+
 /* Create two equal columns that sits next to each other */
 .column {
     flex: 50%;
     padding: 2px 10px 2px 10px;
 }
+
 .column img {
     margin-top: 8px;
     margin-left: 8px;
     vertical-align: middle;
 }
+
 h5 { 
     text-align: center;
     font-weight: 100;
@@ -90,3 +95,24 @@ h5 {
     color: #191970;
     line-height: 0%;
     font-family: Georgia, "Times New Roman", serif; 
+}
+
+p {
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #191970;
+    font-family: Georgia, "Times New Roman", serif; 
+}
+
+#coder {
+    float: right;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#div2 {
+    float: auto;
+    text-align: left;
+    padding: 0px 35px 20px 35px;
+    
+}
